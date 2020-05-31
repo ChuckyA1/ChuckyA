@@ -3,14 +3,14 @@ cd $HOME/TshAkEA
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Tshake
+chmod +TshAkEA
 chmod +x ts
 ./ts
 }
 get() {
 rm -fr TshAkEA.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/ChuckyA1/ChuckyA/master/TshAkEA.lua"
+wget "https://raw.githubusercontent.com/ChuckyA1/ChuckyA/master/TshakeA.lua"
 lua start.lua
 }
 installall(){
@@ -46,9 +46,9 @@ get
 fi
 installall
 cd ..
-rm -rf TshAkEA*
+rm -rf luarocks*
 cd TshAkEA
-rm -rf TshAkEA*
+rm -rf luarocks*
 lua start.lua
 
 
