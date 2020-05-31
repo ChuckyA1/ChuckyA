@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/ChuckyA
+cd $HOME/TshAkEA
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
@@ -8,9 +8,9 @@ chmod +x ts
 ./ts
 }
 get() {
-rm -fr ChuckyA.lua
+rm -fr TshAkEA.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/TshAkEAb/TshAkE/master/Tshake.lua"
+wget "https://raw.githubusercontent.com/ChuckyA1/ChuckyA/master/TshAkEA.lua"
 lua start.lua
 }
 installall(){
@@ -46,9 +46,9 @@ get
 fi
 installall
 cd ..
-rm -rf ChuckyA*
-cd ChuckyA
-rm -rf ChuckyA*
+rm -rf TshAkEA*
+cd TshAkEA
+rm -rf TshAkEA*
 lua start.lua
 
 
